@@ -51,7 +51,7 @@ Any extra metadata has to be "attached" via a link.
 <a name="PossessiveLinks" />
 ### Possessive Links ###
 
-Set of Links joining Data in the Soup, providing one method of Hierachical organisation. Links are Parent to Child (And vis versa). A child can have multiple parents.
+Set of Links joining Data in the Soup, providing one method of Hierachical organisation. Links are Parent to Child (And vice versa). A child can have multiple parents.
 
 The type of relationship between parent and child is defined by the data type. This extra information is stored on the link.
 
