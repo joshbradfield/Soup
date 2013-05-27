@@ -3,10 +3,10 @@ Soup
 
 This project is a CONCEPT. NOTHING has been implemented.
 
-**Table Of Contents**
-1. [Rough Explanation](#1)
-2. [Major Components](#2)
-3. [Things To Add](#3)
+**Table Of Contents**  
+1. [Rough Explanation](#1)  
+2. [Major Components](#2)  
+3. [Things To Add](#3)  
 
 <a name='1' \>
 1. Rough Explanation
