@@ -1,18 +1,30 @@
 Soup
 ====
-An "Associative Data Structure" (Pseudo File System), that allows data to be searched both hierarchically as well as associatively. 
-Data sits in a **Soup** as there is no *"Top of Tree"*.
 
-Any "Relation" between pieces of data in the system has very little meaning on  its own. It is up to the user to interpret the relationships as something meaningful.
+This project is a CONCEPT. NOTHING has been implemented.
 
-Ideally this would be done by building a model that explains how two pieces of data interact. A view would then have to be built to display this information in a useful fashion.
+**Table Of Contents**
+[1. Rough Explanation](#1)
+[2. Major Components](#2)
+[3. Things To Add](#3)
 
-To simplify the process of identifying information, all data must be typed. Soup uses an Object Oriented approach to help classify "unknown" data. (Specifically a Data Type may implement several Interfaces)
+<a name='1' \>
+1. Rough Explanation
+--------------------
+
+An "Associative Data Structure" (Pseudo File System), that allows data to be searched both hierarchically as well as associatively. Data sits in a **Soup** as there is no *"Top of Tree"*.
+
+Any "Relation" or link between pieces of data in the system has very little meaning on its own. It is up to the user to interpret the relationships as something meaningful.
+
+Ideally this would be done using a model that explains how two pieces of data interact. A view would would then display this information in a useful fashion.
+
+To simplify the process of identifying information, all data must be typed. Soup uses an Object Oriented approach to help classify "unknown" data. (Specifically a Data Type may implement several Interfaces(which can in inherit other interfaces))
 
 Soup is about functionality not implementation.
 
-Major Components
------------------
+<a name='2' \>
+2. Major Components
+-------------------
 The Soup system consists of several key elements:
 
 - [Data Soup](#DataSoup)
@@ -75,7 +87,8 @@ Interfaces have the following data:
 - Human Readable Name
 - Supported Interfaces
 
-Things To Add
+<a name='3' \>
+3. Things To Add
 --------------------
 - Support for versioning (Straight copies or a more complex versioning system like GIT)
   + Versioning for Data, DataTypes and Links.
